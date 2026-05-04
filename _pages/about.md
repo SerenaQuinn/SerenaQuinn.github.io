@@ -1,67 +1,165 @@
 ---
 permalink: /
-title: "CZ's Home"
+title: ""
 excerpt: "About me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-Education
-======
-- Peking University, NC&IS.
-    - Sep 2015 - June 2020.
-    - I got my PhD degree in computer science and technology under the superivision of Prof. [Bin Cui](https://cuibinpku.github.io/).
-- Shandong Univerisity, Taishan College
-    - Sep 2011 - June 2015.
-    - I got my B.S degree in computer science and technology under the superivision of Prof. [Xiaohui Yu](https://www.cs.sdu.edu.cn/info/1075/2855.htm).
+<div class="section-card">
+<span class="anchor" id="biography"></span>
+<h1 id="zhipeng-zhang-张智鹏">Zhipeng Zhang (张智鹏)</h1>
 
-Research Interests
-======
-- Big data systems
-- Machine learning systems
-- Graph computing systems. 
+<div class="author-info-inline">
+  <span><i class="fas fa-fw fa-map-marker-alt"></i> Beijing, China</span>
+  <span><i class="fas fa-fw fa-envelope"></i> <a href="mailto:zhangzhipeng@pku.edu.cn">Email</a></span>
+  <span><a href="https://github.com/zhipeng93"><i class="fab fa-fw fa-github"></i> GitHub</a></span>
+  <span><a href="https://scholar.google.com/citations?hl=en&user=RNgBUAIAAAAJ"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></span>
+</div>
 
-Open Source Projects
-======
-- Committer of Apache Flink.
+<p>I am a software engineer at <a href="https://www.alibaba.com/">Alibaba</a>, working on pre-training and post-training infrastructure for LLMs. I am a core contributor to the pre-training infrastructure that powers <a href="https://arxiv.org/abs/2412.15115">Qwen2.5</a>, <a href="https://arxiv.org/abs/2505.09388">Qwen3</a>, and Qwen3.5. My recent work focuses on Agentic RL infrastructure for the Qwen 3.5/3.6 series. Previously, I co-founded <a href="https://github.com/apache/flink-ml">Flink ML</a>, a distributed machine learning framework built on <a href="https://flink.apache.org/">Apache Flink</a>, where I serve as a Flink Committer.</p>
 
-News
-======
-- I gave a talk at ApacheCon Asia 2022 about [Flink ML](https://apachecon.com/acasia2022/zh/sessions/ai-1145.html).
+<p>I received my Ph.D. in Computer Science and Technology from <a href="https://www.pku.edu.cn/">Peking University</a> in 2020, advised by <a href="https://cuibinpku.github.io/">Prof. Bin Cui</a>. My doctoral research focused on big data systems and distributed machine learning systems. I earned my B.S. from <a href="https://www.sdu.edu.cn/">Shandong University</a> (<a href="https://www.tsxt.sdu.edu.cn/">Taishan College</a>) in 2015, advised by <a href="https://www.yorku.ca/xhyu/">Prof. Xiaohui Yu</a>.</p>
 
-Work experience
-======
-- Software engineer @Alibaba (July 2020 - Now)
-    - Project: Usabiblity and Robustness of [Alink](https://github.com/alibaba/alink).
-    - Project: Co-found and maintainer of [Flink ML](https://github.com/apache/flink-ml).
-- Intern@Tencent (Nov 2018 - Nov 2019)
-  - Project: Accelerating distributed graph embedding using Spark/Angel.
-- Visiting ETH (July 2017 - Jan 2018)
-    - Project: Accelerating distributed machine learning on Spark.
+</div>
 
-Skills
-======
-- Programming
-    - Java, Python, C++, Bash, LATEX,
-- Open-source System:
-    - Flink, Spark, Angel, Parameter Servers
-    - TensorFlow, PyTorch Petuum, MXNet
-- System analysis
-    - Performance tunning & optimization
+<div class="section-card">
+<span class="anchor" id="work-experience"></span>
+<h1 id="work-experience"><i class="fas fa-briefcase"></i> Work Experience</h1>
 
-Publications
-======
-- **Zhipeng Zhang**, Wentao Wu, Jiawei Jiang, Lele Yu, Bin Cui, Ce Zhang, ColumnSGD: A Column-oriented Framework for Distributed Stochastic Gradient Descent [CCF-A, ICDE 2020]
-- **Zhipeng Zhang**, Bin Cui, Yingxia Shao, Lele Yu, Jiawei Jiang, Xupeng Miao, PS2: Parameter Server on Spark [CCF-A, SIGMOD Industry 2019] 
-- **Zhipeng Zhang**, Jiawei Jiang, Wentao Wu, Ce Zhang, Lele Yu, Bin Cui. MLlib*: Fast Training of GLMs using Spark MLlib [CCF-A, ICDE Industry 2019] 
-- **Zhipeng Zhang**, Jiawei Jiang, Lele Yu, Bin Cui. Angel+: A Large-Scale Machine Learning Platform on Angel [Frontiers of Data and Computing. 2019]
-- **Zhipeng Zhang**g, Yingxia Shao, Bin Cui, Ce Zhang. An Experimental Evaluation of SimRankbased Similarity Search Algorithms [CCF-A, VLDB 2017]
-- Yunyan Guo, **Zhipeng Zhang**, Wentao Wu, Jiawei Jiang,Ce zhang, Bin Cui, Jianzhong Li, Model Averaging in Distributed Machine Learning: A Case Study with Apache Spark [VLDBJ 2021]
-- Wentao Zhang, Bin Yuan, **Zhipeng Zhang**, Bin Cui. Distributed Optimization and Implementation of Graph Embedding Algorithms. [JOS 2021, CCF-A]
-- Xiaoru Qu, Zhao Li, Jialin Wang, **Zhipeng Zhang**, …, Jun Gao. Category-aware Graph Neural Networks for Improving E-commerce Review Helpfulness Prediction. [CIKM 2020, CCF-B]
-- Jiawei Jiang, Pin Xiao, Lele Yu, Xiaosen Li, Jiefeng Cheng, Xupeng Miao, **Zhipeng Zhang**, Bin Cui. PSGraph: How Tencent trains large-scale graphs with Spark? [CCF-A, ICDE 2020]
-- Xinyi Zhang, **Zhipeng Zhang**, Bin Cui. An Reinforcement Learning-based Method for Join Optimization. [CCF-C, NDBC 2020, Best Student Paper]
-- Jiawei Jiang, **Zhipeng Zhang**, Bin Cui, Yunhai Tong, Ning Xu, StroMAX: Partitioning-based Scheduler for Real-time Stream Processing System [CCF B, DASFAA 2017] 
-- Shuyang Shi, **Zhipeng Zhang**, Bin Cui. Resume Activeness Prediction in Online Recruitment Scenarios [CCF C, NDBC 2017]
+<div class="paper-box-text">
+<ul>
+  <li>Staff Engineer, <strong>Alibaba</strong>, Beijing. (07/2020 - Present)</li>
+  <li>Research Intern, <strong>Tencent</strong>, Beijing. (11/2018 - 11/2019)</li>
+  <li>Visiting Researcher, <strong>ETH Zurich</strong>, Switzerland. (07/2017 - 01/2018)</li>
+</ul>
+</div>
+
+</div>
+
+<div class="section-card">
+<span class="anchor" id="publications"></span>
+<h1 id="publications"><i class="fas fa-book"></i> Publications</h1>
+
+<div class="paper-box-text">
+<ul>
+  <li>
+    <p><strong>VRouter: Micro-batch Level Load Balance via Inter-EP Routing for MoE Training</strong></p>
+    <p><em>Haiquan Wang, <strong>Zhipeng Zhang</strong>, Guanshujie Fu, Youhui Bai, Jiangfei Duan, Yuan Man, Langshi Chen, Hongqing Chen, Siyu Wang, Xiulong Yuan, Yunfei Mao, Si Chang, Linlang Jiang, Yingtao Li, Yan Wang, Yong Li, Wei Lin, Cheng Li</em></p>
+    <p>Preprint, 2026</p>
+  </li>
+  <li>
+    <p><strong>AdaHC: Accelerating Multi-Token Prediction with Adaptive Head Chunking with Pipeline Parallelism</strong></p>
+    <p><em>Yan Wang, Chang Si, Kaiming Yang, <strong>Zhipeng Zhang</strong>, Weijian Liu, Man Yuan, Mingzhen Li, Yong Li</em></p>
+    <p>ICML, 2026</p>
+  </li>
+  <li>
+    <p><strong>Continuum: An Interruption-Resilient Runtime for ML Training</strong></p>
+    <p><em>ChonLam Lao, Jiaqi Gao, Jiamin Cao, <strong>Zhipeng Zhang</strong>, Pengcheng Zhang, Jiangfei Duan, Minlan Yu, Aditya Akella, Zhilong Zheng, Yu Guan, Yichi Xu, Yong Li, Ennan Zhai, Dennis Cai, Zhengping Qian, Jingren Zhou</em></p>
+    <p>OSDI, 2026</p>
+  </li>
+  <li>
+    <p><strong>Qwen3 Technical Report</strong></p>
+    <p><em>Qwen Team</em> (LLM infra contributor)</p>
+    <p>arXiv, 2025 (<a href="https://arxiv.org/abs/2505.09388">arXiv</a>)</p>
+  </li>
+  <li>
+    <p><strong>Qwen2.5 Technical Report</strong></p>
+    <p><em>Qwen Team</em> (LLM infra contributor)</p>
+    <p>arXiv, 2024 (<a href="https://arxiv.org/abs/2412.15115">arXiv</a>)</p>
+  </li>
+  <li>
+    <p><strong>Infinite-LLM: Efficient LLM Service for Long Context with DistAttention and Distributed KVCache</strong></p>
+    <p><em>Bin Lin, Chen Zhang, Tao Peng, Hanyu Zhao, Wencong Xiao, Minmin Sun, Anmin Liu, <strong>Zhipeng Zhang</strong>, Lanbo Li, Xiafei Qiu, Shen Li, Zhigang Ji, Tao Xie, Yong Li, Wei Lin</em></p>
+    <p>arXiv, 2024 (<a href="https://arxiv.org/abs/2401.02669">arXiv</a>)</p>
+  </li>
+  <li>
+    <p><strong>Model Averaging in Distributed Machine Learning: A Case Study with Apache Spark</strong></p>
+    <p><em>Yunyan Guo, <strong>Zhipeng Zhang</strong>, Wentao Wu, Jiawei Jiang, Ce Zhang, Bin Cui, Jianzhong Li</em></p>
+    <p>VLDBJ, 2021</p>
+  </li>
+  <li>
+    <p><strong>Distributed Optimization and Implementation of Graph Embedding Algorithms</strong></p>
+    <p><em>Wentao Zhang, Bin Yuan, <strong>Zhipeng Zhang</strong>, Bin Cui</em></p>
+    <p>JOS, 2021</p>
+  </li>
+  <li>
+    <p><strong>ColumnSGD: A Column-oriented Framework for Distributed Stochastic Gradient Descent</strong></p>
+    <p><em><strong>Zhipeng Zhang</strong>, Wentao Wu, Jiawei Jiang, Lele Yu, Bin Cui, Ce Zhang</em></p>
+    <p>ICDE, 2020</p>
+  </li>
+  <li>
+    <p><strong>Category-aware Graph Neural Networks for Improving E-commerce Review Helpfulness Prediction</strong></p>
+    <p><em>Xiaoru Qu, Zhao Li, Jialin Wang, <strong>Zhipeng Zhang</strong>, ..., Jun Gao</em></p>
+    <p>CIKM, 2020</p>
+  </li>
+  <li>
+    <p><strong>PSGraph: How Tencent trains large-scale graphs with Spark?</strong></p>
+    <p><em>Jiawei Jiang, Pin Xiao, Lele Yu, Xiaosen Li, Jiefeng Cheng, Xupeng Miao, <strong>Zhipeng Zhang</strong>, Bin Cui</em></p>
+    <p>ICDE, 2020</p>
+  </li>
+  <li>
+    <p><strong>A Reinforcement Learning-based Method for Join Optimization</strong></p>
+    <p><em>Xinyi Zhang, <strong>Zhipeng Zhang</strong>, Bin Cui</em></p>
+    <p>NDBC, 2020 (<strong>Best Student Paper</strong>)</p>
+  </li>
+  <li>
+    <p><strong>PS2: Parameter Server on Spark</strong></p>
+    <p><em><strong>Zhipeng Zhang</strong>, Bin Cui, Yingxia Shao, Lele Yu, Jiawei Jiang, Xupeng Miao</em></p>
+    <p>SIGMOD, 2019</p>
+  </li>
+  <li>
+    <p><strong>MLlib*: Fast Training of GLMs using Spark MLlib</strong></p>
+    <p><em><strong>Zhipeng Zhang</strong>, Jiawei Jiang, Wentao Wu, Ce Zhang, Lele Yu, Bin Cui</em></p>
+    <p>ICDE, 2019</p>
+  </li>
+  <li>
+    <p><strong>Angel+: A Large-Scale Machine Learning Platform on Angel</strong></p>
+    <p><em><strong>Zhipeng Zhang</strong>, Jiawei Jiang, Lele Yu, Bin Cui</em></p>
+    <p>Frontiers of Data and Computing, 2019</p>
+  </li>
+  <li>
+    <p><strong>An Experimental Evaluation of SimRank-based Similarity Search Algorithms</strong></p>
+    <p><em><strong>Zhipeng Zhang</strong>, Yingxia Shao, Bin Cui, Ce Zhang</em></p>
+    <p>VLDB, 2017</p>
+  </li>
+  <li>
+    <p><strong>StroMAX: Partitioning-based Scheduler for Real-time Stream Processing System</strong></p>
+    <p><em>Jiawei Jiang, <strong>Zhipeng Zhang</strong>, Bin Cui, Yunhai Tong, Ning Xu</em></p>
+    <p>DASFAA, 2017</p>
+  </li>
+  <li>
+    <p><strong>Resume Activeness Prediction in Online Recruitment Scenarios</strong></p>
+    <p><em>Shuyang Shi, <strong>Zhipeng Zhang</strong>, Bin Cui</em></p>
+    <p>NDBC, 2017</p>
+  </li>
+</ul>
+</div>
+
+</div>
+
+<div class="section-card">
+<span class="anchor" id="awards"></span>
+<h1 id="awards"><i class="fas fa-trophy"></i> Awards</h1>
+<ul>
+  <li><strong>SIGMOD Systems Award 2023</strong>, for <a href="https://sigmod.org/2023-sigmod-systems-award/">Apache Flink</a> — Aljoscha Krettek, Andrey Zagrebin, ..., <strong>Zhipeng Zhang</strong>, ..., and Zili Chen</li>
+  <li><strong>NDBC 2020 Best Student Paper</strong></li>
+  <li><strong>Second-Class Scholarship of Peking University</strong>, 2019</li>
+  <li><strong>Miaozhen Scholarship of Peking University</strong>, 2019</li>
+  <li><strong>Academic Innovation Award of Peking University</strong>, 2018 & 2017</li>
+  <li><strong>President Scholarship of Peking University</strong>, 2017 & 2016</li>
+  <li><strong>Sohu Scholarship of Peking University</strong>, 2016</li>
+</ul>
+</div>
+
+<div class="section-card">
+<span class="anchor" id="open-source"></span>
+<h1 id="open-source"><i class="fas fa-code-branch"></i> Open Source</h1>
+<ul>
+  <li>Committer of <a href="https://flink.apache.org/">Apache Flink</a></li>
+  <li>Contributor of <a href="https://github.com/Tencent/angel">Angel</a></li>
+  <li>Early Contributor of <a href="https://github.com/Hsword/Hetu">Hetu</a></li>
+</ul>
+</div>

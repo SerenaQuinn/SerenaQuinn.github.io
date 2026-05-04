@@ -1,61 +1,102 @@
 ---
-layout: archive
+layout: single
 title: "CV"
 permalink: /cv/
-author_profile: true
+author_profile: false
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+<div class="section-card">
+<span class="anchor" id="education"></span>
+<h1 id="education"><i class="fas fa-graduation-cap"></i> Education</h1>
 
-Education
-======
-- Peking University, NC&IS.
-    - Sep 2015 - June 2020.
-    - I got my PhD degree under the superivision of Prof. [Bin Cui](http://net.pku.edu.cn/~cuibin/).
-- Shandong Univerisity, Taishan College
-    - Sep 2011 - June 2015.
-    - I got my B.S degree in computer science and technology under the superivision of Prof. [Xiaohui Yu](https://www.cs.sdu.edu.cn/info/1075/2855.htm).
+<div class="paper-box-text">
+<ul>
+  <li>Ph.D. in Computer Science and Technology, <strong>Peking University</strong>, Beijing. (09/2015 - 06/2020)
+    <ul>
+      <li>Advisor: <a href="http://net.pku.edu.cn/~cuibin/">Prof. Bin Cui</a></li>
+      <li>Research Interests: Distributed machine learning systems, big data analytics</li>
+    </ul>
+  </li>
+</ul>
+</div>
 
-Research Interests
-======
-Big data systems, machine learning systems, graph computing systems. 
+<div class="paper-box-text">
+<ul>
+  <li>B.S. in Computer Science and Technology, <strong>Shandong University</strong> (Taishan College), Jinan. (09/2011 - 06/2015)
+    <ul>
+      <li>Advisor: <a href="https://www.yorku.ca/xhyu/">Prof. Xiaohui Yu</a></li>
+    </ul>
+  </li>
+</ul>
+</div>
 
-Work experience
-======
-- Software engineer @Alibaba (July 2020 - Now)
-    - Project: Usabiblity and Robustness of Alink.
-    - Project: Co-found machine learning on Flink.
-- Intern@Tencent (Nov 2018 - Nov 2019)
-  - Project: Accelerating distributed graph embedding using Spark/Angel.
+</div>
 
-- Visiting ETH (July 2017 - Jan 2018)
-    - Project: Accelerating distributed machine learning on Spark.
+<div class="section-card">
+<span class="anchor" id="work-experience"></span>
+<h1 id="work-experience"><i class="fas fa-briefcase"></i> Work Experience</h1>
 
-Skills
-======
-- Programming
-    - Java, Python, C++, Bash, LATEX,
-- Open-source System:
-    - Flink, Spark, Angel, Parameter Servers
-    - TensorFlow, PyTorch Petuum, MXNet
-- System analysis
-    - Performance tunning & optimization
+<div class="paper-box-text">
+<ul>
+  <li>
+    <p>Software Engineer, <strong>Alibaba</strong>, Beijing. (07/2020 - Present)</p>
+    <ul>
+      <li>Co-founder and maintainer of <a href="https://github.com/apache/flink-ml">Flink ML</a>, a machine learning library on Apache Flink.</li>
+      <li>Worked on the usability and robustness of <a href="https://github.com/alibaba/alink">Alink</a>, a large-scale machine learning platform.</li>
+    </ul>
+  </li>
+</ul>
+</div>
 
-Publications
-======
+<div class="paper-box-text">
+<ul>
+  <li>Research Intern, <strong>Tencent</strong>, Beijing. (11/2018 - 11/2019)
+    <ul>
+      <li>Project: Accelerating distributed graph embedding using Spark/Angel.</li>
+    </ul>
+  </li>
+</ul>
+</div>
+
+<div class="paper-box-text">
+<ul>
+  <li>Visiting Researcher, <strong>ETH Zurich</strong>, Switzerland. (07/2017 - 01/2018)
+    <ul>
+      <li>Project: Accelerating distributed machine learning on Spark.</li>
+    </ul>
+  </li>
+</ul>
+</div>
+
+</div>
+
+<div class="section-card">
+<span class="anchor" id="skills"></span>
+<h1 id="skills"><i class="fas fa-tools"></i> Skills</h1>
+<ul>
+  <li>Programming: Java, Python, C++, Bash, LaTeX</li>
+  <li>Open-source Systems: Apache Flink, Apache Spark, Angel, TensorFlow, PyTorch, MXNet</li>
+  <li>System analysis: Performance tuning & optimization</li>
+</ul>
+</div>
+
+<div class="section-card">
+<span class="anchor" id="publications"></span>
+<h1 id="publications"><i class="fas fa-book"></i> Publications</h1>
+
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-<!-- Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul> -->
 
-  
-Service and leadership
-======
-- Co-founder & core contributor of FlinkML.
+</div>
+
+<div class="section-card">
+<span class="anchor" id="service"></span>
+<h1 id="service-and-leadership"><i class="fas fa-users"></i> Service and Leadership</h1>
+<ul>
+  <li>Co-founder & core contributor of <a href="https://github.com/apache/flink-ml">Flink ML</a></li>
+  <li>Committer of <a href="https://flink.apache.org/">Apache Flink</a></li>
+</ul>
+</div>
