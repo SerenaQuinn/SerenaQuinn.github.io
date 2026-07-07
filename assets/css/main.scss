@@ -183,6 +183,12 @@ h2 {
   }
 
   a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3em;
+  }
+
+  a {
     color: #0969da;
     text-decoration: none;
 
@@ -191,9 +197,33 @@ h2 {
     }
   }
 
-  i {
-    color: #666;
-  }
+}
+
+.icon-inline {
+  width: 1em;
+  height: 1em;
+  flex: 0 0 auto;
+  vertical-align: -0.125em;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.author-info-inline .icon-inline {
+  color: #666;
+}
+
+.icon-filled {
+  fill: currentColor;
+  stroke: none;
+}
+
+.icon-heading {
+  width: 1.05em;
+  height: 1.05em;
+  margin-right: 0.35em;
 }
 
 /* Paper box text */

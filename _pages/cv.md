@@ -9,7 +9,7 @@ redirect_from:
 
 <div class="section-card">
 <span class="anchor" id="education"></span>
-<h1 id="education"><i class="fas fa-graduation-cap"></i> Education</h1>
+<h1 id="education">{% include icon.html name="graduation-cap" %} Education</h1>
 
 <div class="paper-box-text">
 <ul>
@@ -36,7 +36,7 @@ redirect_from:
 
 <div class="section-card">
 <span class="anchor" id="work-experience"></span>
-<h1 id="work-experience"><i class="fas fa-briefcase"></i> Work Experience</h1>
+<h1 id="work-experience">{% include icon.html name="briefcase" %} Work Experience</h1>
 
 <div class="paper-box-text">
 <ul>
@@ -74,7 +74,7 @@ redirect_from:
 
 <div class="section-card">
 <span class="anchor" id="skills"></span>
-<h1 id="skills"><i class="fas fa-tools"></i> Skills</h1>
+<h1 id="skills">{% include icon.html name="tools" %} Skills</h1>
 <ul>
   <li>Programming: Java, Python, C++, Bash, LaTeX</li>
   <li>Open-source Systems: Apache Flink, Apache Spark, Angel, TensorFlow, PyTorch, MXNet</li>
@@ -84,17 +84,15 @@ redirect_from:
 
 <div class="section-card">
 <span class="anchor" id="publications"></span>
-<h1 id="publications"><i class="fas fa-book"></i> Publications</h1>
+<h1 id="publications">{% include icon.html name="book" %} Publications</h1>
 
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+<p>See the <a href="/#publications">publications section</a> on the homepage.</p>
 
 </div>
 
 <div class="section-card">
 <span class="anchor" id="service"></span>
-<h1 id="service-and-leadership"><i class="fas fa-users"></i> Service and Leadership</h1>
+<h1 id="service-and-leadership">{% include icon.html name="users" %} Service and Leadership</h1>
 <ul>
   <li>Co-founder & core contributor of <a href="https://github.com/apache/flink-ml">Flink ML</a></li>
   <li>Committer of <a href="https://flink.apache.org/">Apache Flink</a></li>

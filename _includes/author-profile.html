@@ -10,16 +10,16 @@
     <h3 class="author__name">{{ author.name }}</h3>
     <div class="author__links-inline">
       {% if author.location %}
-        <span><i class="fas fa-fw fa-map-marker-alt"></i> {{ author.location }}</span>
+        <span>{% include icon.html name="map-pin" %} {{ author.location }}</span>
       {% endif %}
       {% if author.email %}
-        <span><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope"></i> {{ author.email }}</a></span>
+        <span><a href="mailto:{{ author.email }}">{% include icon.html name="mail" %} {{ author.email }}</a></span>
       {% endif %}
       {% if author.github %}
-        <span><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github"></i> GitHub</a></span>
+        <span><a href="https://github.com/{{ author.github }}">{% include icon.html name="github" %} GitHub</a></span>
       {% endif %}
       {% if author.googlescholar %}
-        <span><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></span>
+        <span><a href="{{ author.googlescholar }}">{% include icon.html name="graduation-cap" %} Google Scholar</a></span>
       {% endif %}
       {% if author.weibo %}
         <span><a href="https://www.weibo.com/{{ author.weibo }}"><i class="fab fa-fw fa-weibo"></i> Weibo</a></span>
