@@ -1,4 +1,4 @@
-# quxiaoru.github.io
+# SerenaQuinn.github.io
 
 Personal homepage for Xiaoru Qu, built with Jekyll and hosted on GitHub Pages.
 
