@@ -10,30 +10,43 @@ redirect_from:
 
 <div class="section-card">
 <span class="anchor" id="biography"></span>
-<h1 id="zhipeng-zhang-张智鹏">Zhipeng Zhang (张智鹏)</h1>
+<h1 id="xiaoru-qu">Xiaoru Qu</h1>
 
 <div class="author-info-inline">
   <span>{% include icon.html name="map-pin" %} Beijing, China</span>
-  <span>{% include icon.html name="mail" %} <a href="mailto:zhangzhipeng@pku.edu.cn">Email</a></span>
-  <span><a href="https://github.com/zhipeng93">{% include icon.html name="github" %} GitHub</a></span>
-  <span><a href="https://scholar.google.com/citations?hl=en&user=RNgBUAIAAAAJ">{% include icon.html name="graduation-cap" %} Google Scholar</a></span>
+  <span>{% include icon.html name="mail" %} <a href="mailto:quxiaoru@kuaishou.com">Email</a></span>
+  <span><a href="https://scholar.google.com/citations?user=bKGQDbYAAAAJ&hl=en">{% include icon.html name="graduation-cap" %} Google Scholar</a></span>
 </div>
 
-<p>I am a software engineer at <a href="https://www.alibaba.com/">Alibaba</a>, working on pre-training and post-training infrastructure for LLMs. I am a core contributor to the pre-training infrastructure that powers <a href="https://arxiv.org/abs/2412.15115">Qwen2.5</a>, <a href="https://arxiv.org/abs/2505.09388">Qwen3</a>, and Qwen3.5. My recent work focuses on Agentic RL infrastructure for the Qwen 3.5/3.6 series. Previously, I co-founded <a href="https://github.com/apache/flink-ml">Flink ML</a>, a distributed machine learning framework built on <a href="https://flink.apache.org/">Apache Flink</a>, where I serve as a Flink Committer.</p>
+<p>I am a machine learning engineer at Kuaishou Technology. From 2024 to 2026, I worked on recommender systems. Since 2026, my work has focused on multimodal understanding.</p>
 
-<p>I received my Ph.D. in Computer Science and Technology from <a href="https://www.pku.edu.cn/">Peking University</a> in 2020, advised by <a href="https://cuibinpku.github.io/">Prof. Bin Cui</a>. My doctoral research focused on big data systems and distributed machine learning systems. I earned my B.S. from <a href="https://www.sdu.edu.cn/">Shandong University</a> (<a href="https://www.tsxt.sdu.edu.cn/">Taishan College</a>) in 2015, advised by <a href="https://www.yorku.ca/xhyu/">Prof. Xiaohui Yu</a>.</p>
+<p>I received my Ph.D. in Computer Science from <a href="https://www.pku.edu.cn/">Peking University</a> in 2024, advised by <a href="https://cs.pku.edu.cn/info/1214/1977.htm">Prof. Jun Gao</a>. My doctoral research centered on user-oriented e-commerce review analysis, including review helpfulness prediction and personalized review generation for users with different activity levels. I received my B.S. in Computer Science from Peking University in 2018.</p>
 
 </div>
 
 <div class="section-card">
-<span class="anchor" id="work-experience"></span>
-<h1 id="work-experience">{% include icon.html name="briefcase" %} Work Experience</h1>
+<span class="anchor" id="career-education"></span>
+<h1 id="career-education">{% include icon.html name="briefcase" %} Career &amp; Education History</h1>
 
 <div class="paper-box-text">
 <ul>
-  <li>Staff Engineer, <strong>Alibaba</strong>, Beijing. (07/2020 - Present)</li>
-  <li>Research Intern, <strong>Tencent</strong>, Beijing. (11/2018 - 11/2019)</li>
-  <li>Visiting Researcher, <strong>ETH Zurich</strong>, Switzerland. (07/2017 - 01/2018)</li>
+  <li>Researcher, <strong>Kuaishou Technology</strong>, 2024 - Present</li>
+  <li>PhD student, <strong>Peking University</strong>, 2018 - 2024</li>
+  <li>Undergraduate student, <strong>Peking University</strong>, 2014 - 2018</li>
+</ul>
+</div>
+
+</div>
+
+<div class="section-card">
+<span class="anchor" id="research"></span>
+<h1 id="research">{% include icon.html name="code-branch" %} Research Interests</h1>
+
+<div class="paper-box-text">
+<ul>
+  <li>Multimodal understanding, 2026 - Present</li>
+  <li>Recommender system, 2024 - 2026</li>
+  <li>GNNs, review helpfulness prediction, review generation, 2018 - 2024</li>
 </ul>
 </div>
 
@@ -46,97 +59,37 @@ redirect_from:
 <div class="paper-box-text">
 <ul>
   <li>
-    <p><strong>Accelerating Compound LLM Training Workloads with Maestro</strong></p>
-    <p><em>Xiulong Yuan, Hongqing Chen, Jiaxuan Peng, Fan Zhou, Zhixiang Ruan, Zekun Wang, Bo Zheng, Rui Men, Haiquan Wang, <strong>Zhipeng Zhang</strong>, Langshi Chen, Man Yuan, Jiaqi Gao, Zhengping Qian, Junyang Lin, Yong Li, Wei Lin, Junhua Wang, Jingren Zhou</em></p>
-    <p>arXiv, 2026 (<a href="https://arxiv.org/abs/2605.10501">arXiv</a>)</p>
+    <p><strong>Unifying User Satisfaction and Creator Incentive: A Constrained Optimization Framework for Short-Video Recommendation</strong></p>
+    <p><em><strong>Xiaoru Qu</strong>, Dingyi Zhang, Zhangxi Yan, Peng Zhang, Hu Liu, Yang Zou, Jian Liang, Kaiqiao Zhan</em></p>
+    <p>SIGIR 2026 (<a href="https://dl.acm.org/doi/abs/10.1145/3805712.3808514">paper</a>)</p>
   </li>
   <li>
-    <p><strong>VRouter: Micro-batch Level Load Balance via Inter-EP Routing for MoE Training</strong></p>
-    <p><em>Haiquan Wang, <strong>Zhipeng Zhang</strong>, Guanshujie Fu, Youhui Bai, Jiangfei Duan, Yuan Man, Langshi Chen, Hongqing Chen, Siyu Wang, Xiulong Yuan, Yunfei Mao, Si Chang, Linlang Jiang, Yingtao Li, Yan Wang, Yong Li, Wei Lin, Cheng Li</em></p>
-    <p>Preprint, 2026</p>
+    <p><strong>Graph-Enhanced Prompt Learning for Personalized Review Generation</strong></p>
+    <p><em><strong>Xiaoru Qu</strong>, Yifan Wang, Zhao Li, Jun Gao</em></p>
+    <p>Data Sci. Eng. 2024 (<a href="https://link.springer.com/article/10.1007/s41019-024-00252-z">paper</a>)</p>
   </li>
   <li>
-    <p><strong>AdaHC: Accelerating Multi-Token Prediction with Adaptive Head Chunking with Pipeline Parallelism</strong></p>
-    <p><em>Yan Wang, Chang Si, Kaiming Yang, <strong>Zhipeng Zhang</strong>, Weijian Liu, Man Yuan, Mingzhen Li, Yong Li</em></p>
-    <p>ICML, 2026</p>
+    <p><strong>SAGES: Scalable Attributed Graph Embedding With Sampling for Unsupervised Learning</strong></p>
+    <p><em>Jialin Wang*, <strong>Xiaoru Qu*</strong>, Jinze Bai, Zhao Li, Ji Zhang, Jun Gao</em></p>
+    <p><em>* Equal contribution.</em></p>
+    <p>IEEE TKDE 2023 (<a href="https://www.computer.org/csdl/journal/tk/2023/05/09705119/1AII2wq6R9e">paper</a>)</p>
   </li>
   <li>
-    <p><strong>TrainMover: An Interruption-Resilient Runtime for ML Training</strong></p>
-    <p><em>ChonLam Lao, Jiaqi Gao, Jiamin Cao, <strong>Zhipeng Zhang</strong>, Pengcheng Zhang, Jiangfei Duan, Minlan Yu, Aditya Akella, Zhilong Zheng, Yu Guan, Yichi Xu, Yong Li, Ennan Zhai, Dennis Cai, Zhengping Qian, Jingren Zhou</em></p>
-    <p>OSDI, 2026</p>
+    <p><strong>A Subgraph-based Knowledge Reasoning Method for Collective Fraud Detection in E-commerce</strong></p>
+    <p><em>Junshuai Song, <strong>Xiaoru Qu</strong>, Zehong Hu, Zhao Li, Jun Gao, Ji Zhang</em></p>
+    <p>Neurocomputing 2021 (<a href="https://www.sciencedirect.com/science/article/abs/pii/S0925231221009632">paper</a>)</p>
   </li>
   <li>
-    <p><strong>A Few GPUs, A Whole Lotta Scale: Faithful LLM Training Emulation with PrismLLM</strong></p>
-    <p><em>Shaoke Xi, ChonLam Lao, Boyi Jia, Jiaqi Gao, <strong>Zhipeng Zhang</strong>, Jiamin Cao, Brian Sutioso, Erci Xu, Minlan Yu, Kui Ren, Yong Li, Zhengping Qian, Ennan Zhai, Jingren Zhou</em></p>
-    <p>SOSP, 2026 (<a href="https://arxiv.org/abs/2605.15617">arXiv</a>)</p>
+    <p><strong>Category-aware Graph Neural Networks for Improving E-commerce Review Helpfulness Prediction</strong></p>
+    <p><em><strong>Xiaoru Qu</strong>, Zhao Li, Jialin Wang, Zhipeng Zhang, Pengcheng Zou, Junxiao Jiang, Jiaming Huang, Rong Xiao, Ji Zhang, Jun Gao</em></p>
+    <p>CIKM 2020 (<a href="https://dl.acm.org/doi/abs/10.1145/3340531.3412691">paper</a>)</p>
   </li>
   <li>
-    <p><strong>Qwen3 Technical Report</strong></p>
-    <p><em>Qwen Team</em> (LLM infra contributor)</p>
-    <p>arXiv, 2025 (<a href="https://arxiv.org/abs/2505.09388">arXiv</a>)</p>
-  </li>
-  <li>
-    <p><strong>Qwen2.5 Technical Report</strong></p>
-    <p><em>Qwen Team</em> (LLM infra contributor)</p>
-    <p>arXiv, 2024 (<a href="https://arxiv.org/abs/2412.15115">arXiv</a>)</p>
-  </li>
-  <li>
-    <p><strong>Infinite-LLM: Efficient LLM Service for Long Context with DistAttention and Distributed KVCache</strong></p>
-    <p><em>Bin Lin, Chen Zhang, Tao Peng, Hanyu Zhao, Wencong Xiao, Minmin Sun, Anmin Liu, <strong>Zhipeng Zhang</strong>, Lanbo Li, Xiafei Qiu, Shen Li, Zhigang Ji, Tao Xie, Yong Li, Wei Lin</em></p>
-    <p>arXiv, 2024 (<a href="https://arxiv.org/abs/2401.02669">arXiv</a>)</p>
-  </li>
-  <li>
-    <p><strong>Model Averaging in Distributed Machine Learning: A Case Study with Apache Spark</strong></p>
-    <p><em>Yunyan Guo, <strong>Zhipeng Zhang</strong>, Wentao Wu, Jiawei Jiang, Ce Zhang, Bin Cui, Jianzhong Li</em></p>
-    <p>VLDBJ, 2021</p>
-  </li>
-  <li>
-    <p><strong>ColumnSGD: A Column-oriented Framework for Distributed Stochastic Gradient Descent</strong></p>
-    <p><em><strong>Zhipeng Zhang</strong>, Wentao Wu, Jiawei Jiang, Lele Yu, Bin Cui, Ce Zhang</em></p>
-    <p>ICDE, 2020</p>
-  </li>
-  <li>
-    <p><strong>PSGraph: How Tencent trains large-scale graphs with Spark?</strong></p>
-    <p><em>Jiawei Jiang, Pin Xiao, Lele Yu, Xiaosen Li, Jiefeng Cheng, Xupeng Miao, <strong>Zhipeng Zhang</strong>, Bin Cui</em></p>
-    <p>ICDE, 2020</p>
-  </li>
-  <li>
-    <p><strong>A Reinforcement Learning-based Method for Join Optimization</strong></p>
-    <p><em>Xinyi Zhang, <strong>Zhipeng Zhang</strong>, Bin Cui</em></p>
-    <p>NDBC, 2020 (<strong>Best Student Paper</strong>)</p>
-  </li>
-  <li>
-    <p><strong>PS2: Parameter Server on Spark</strong></p>
-    <p><em><strong>Zhipeng Zhang</strong>, Bin Cui, Yingxia Shao, Lele Yu, Jiawei Jiang, Xupeng Miao</em></p>
-    <p>SIGMOD, 2019</p>
-  </li>
-  <li>
-    <p><strong>MLlib*: Fast Training of GLMs using Spark MLlib</strong></p>
-    <p><em><strong>Zhipeng Zhang</strong>, Jiawei Jiang, Wentao Wu, Ce Zhang, Lele Yu, Bin Cui</em></p>
-    <p>ICDE, 2019</p>
-  </li>
-  <li>
-    <p><strong>An Experimental Evaluation of SimRank-based Similarity Search Algorithms</strong></p>
-    <p><em><strong>Zhipeng Zhang</strong>, Yingxia Shao, Bin Cui, Ce Zhang</em></p>
-    <p>VLDB, 2017</p>
+    <p><strong>Personalized Bundle List Recommendation</strong></p>
+    <p><em>Jinze Bai, Chang Zhou, Junshuai Song, <strong>Xiaoru Qu</strong>, Weiting An, Zhao Li, Jun Gao</em></p>
+    <p>WWW 2019 (<a href="https://dl.acm.org/doi/abs/10.1145/3308558.3313568">paper</a>)</p>
   </li>
 </ul>
 </div>
 
-</div>
-
-<div class="section-card">
-<span class="anchor" id="awards"></span>
-<h1 id="awards">{% include icon.html name="trophy" %} Awards</h1>
-<ul>
-  <li><a href="https://sigmod.org/2023-sigmod-systems-award/"><strong>SIGMOD Systems Award 2023</strong></a></li>
-  <li><strong>NDBC 2020 Best Student Paper</strong></li>
-  <li><strong>President Scholarship of Peking University</strong>, 2017 & 2016</li>
-</ul>
-</div>
-
-<div class="section-card">
-<span class="anchor" id="blogs"></span>
-<h1 id="blogs">{% include icon.html name="blog" %} Blogs</h1>
-<p>Selected public posts will be listed here.</p>
 </div>

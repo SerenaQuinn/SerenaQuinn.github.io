@@ -1,6 +1,6 @@
-# zhipeng93.github.io
+# quxiaoru.github.io
 
-Personal homepage for Zhipeng Zhang, built with Jekyll and hosted on GitHub Pages.
+Personal homepage for Xiaoru Qu, built with Jekyll and hosted on GitHub Pages.
 
 ## Local Development
 
@@ -14,7 +14,7 @@ bundle install
 Serve locally:
 
 ```bash
-bundle exec jekyll serve --host 127.0.0.1 --port 4000
+bundle exec jekyll serve --config _config.yml,_config.dev.yml --host 127.0.0.1 --port 4000
 ```
 
 Then open <http://127.0.0.1:4000/>.

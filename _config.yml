@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Zhipeng Zhang"
+title                    : "Xiaoru Qu"
 title_separator          : "-"
-name                     : &name "Zhipeng Zhang"
-description              : &description "personal description"
-url                      : https://zhipeng93.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Xiaoru Qu"
+description              : &description "Personal homepage of Xiaoru Qu"
+url                      : https://quxiaoru.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "zhipeng93/zhipeng93.github.io"
+repository               : "quxiaoru/quxiaoru.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -76,14 +76,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Zhipeng Zhang"
-  avatar           : "profile.jpg"
-  bio              : "software engineer @Alibaba. Pre-training & Post-training Infra."
-  location         : "Beijing"
+  name             : "Xiaoru Qu"
+  avatar           :
+  bio              : "Recommender systems and graph learning."
+  location         : "Beijing, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?hl=en&user=RNgBUAIAAAAJ"
-  email            : zhangzhipeng@pku.edu.cn
+  googlescholar    : "https://scholar.google.com/citations?user=bKGQDbYAAAAJ&hl=en"
+  email            : quxiaoru@kuaishou.com
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -92,7 +92,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "zhipeng93"
+  github           :
   google_plus      :
   keybase          :
   instagram        :
