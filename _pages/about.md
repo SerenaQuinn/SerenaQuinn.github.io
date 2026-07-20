@@ -60,8 +60,8 @@ redirect_from:
 <ul>
   <li>
     <p><strong>Unifying User Satisfaction and Creator Incentive: A Constrained Optimization Framework for Short-Video Recommendation</strong></p>
-    <p><em><strong>Xiaoru Qu*</strong>, Dingyi Zhang*, Zhangxi Yan, Peng Zhang, Hu Liu, Yang Zou, Jian Liang, Kaiqiao Zhan</em></p>
-    <p><em>* Equal contribution.</em></p>
+    <p><em><strong>Xiaoru Qu</strong><sup>*</sup>, Dingyi Zhang<sup>*</sup>, Zhangxi Yan, Peng Zhang, Hu Liu, Yang Zou, Jian Liang, Kaiqiao Zhan</em></p>
+    <p class="publication-note"><sup>*</sup> Equal contribution.</p>
     <p>SIGIR 2026 (<a href="https://dl.acm.org/doi/abs/10.1145/3805712.3808514">paper</a>)</p>
   </li>
   <li>
@@ -71,8 +71,8 @@ redirect_from:
   </li>
   <li>
     <p><strong>SAGES: Scalable Attributed Graph Embedding With Sampling for Unsupervised Learning</strong></p>
-    <p><em>Jialin Wang*, <strong>Xiaoru Qu*</strong>, Jinze Bai, Zhao Li, Ji Zhang, Jun Gao</em></p>
-    <p><em>* Equal contribution.</em></p>
+    <p><em>Jialin Wang<sup>*</sup>, <strong>Xiaoru Qu</strong><sup>*</sup>, Jinze Bai, Zhao Li, Ji Zhang, Jun Gao</em></p>
+    <p class="publication-note"><sup>*</sup> Equal contribution.</p>
     <p>IEEE TKDE 2023 (<a href="https://www.computer.org/csdl/journal/tk/2023/05/09705119/1AII2wq6R9e">paper</a>)</p>
   </li>
   <li>
