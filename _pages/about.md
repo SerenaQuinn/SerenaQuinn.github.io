@@ -60,7 +60,8 @@ redirect_from:
 <ul>
   <li>
     <p><strong>Unifying User Satisfaction and Creator Incentive: A Constrained Optimization Framework for Short-Video Recommendation</strong></p>
-    <p><em><strong>Xiaoru Qu</strong>, Dingyi Zhang, Zhangxi Yan, Peng Zhang, Hu Liu, Yang Zou, Jian Liang, Kaiqiao Zhan</em></p>
+    <p><em><strong>Xiaoru Qu*</strong>, Dingyi Zhang*, Zhangxi Yan, Peng Zhang, Hu Liu, Yang Zou, Jian Liang, Kaiqiao Zhan</em></p>
+    <p><em>* Equal contribution.</em></p>
     <p>SIGIR 2026 (<a href="https://dl.acm.org/doi/abs/10.1145/3805712.3808514">paper</a>)</p>
   </li>
   <li>
