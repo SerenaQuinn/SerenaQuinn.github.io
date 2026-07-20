@@ -61,8 +61,7 @@ redirect_from:
   <li>
     <p><strong>Unifying User Satisfaction and Creator Incentive: A Constrained Optimization Framework for Short-Video Recommendation</strong></p>
     <p><em><strong>Xiaoru Qu</strong><sup>*</sup>, Dingyi Zhang<sup>*</sup>, Zhangxi Yan, Peng Zhang, Hu Liu, Yang Zou, Jian Liang, Kaiqiao Zhan</em></p>
-    <p class="publication-note"><sup>*</sup> Equal contribution.</p>
-    <p>SIGIR 2026 (<a href="https://dl.acm.org/doi/abs/10.1145/3805712.3808514">paper</a>)</p>
+    <p>SIGIR 2026 (<a href="https://dl.acm.org/doi/abs/10.1145/3805712.3808514">paper</a>) <span class="publication-note">(<sup>*</sup> Equal contribution)</span></p>
   </li>
   <li>
     <p><strong>Graph-Enhanced Prompt Learning for Personalized Review Generation</strong></p>
@@ -72,8 +71,7 @@ redirect_from:
   <li>
     <p><strong>SAGES: Scalable Attributed Graph Embedding With Sampling for Unsupervised Learning</strong></p>
     <p><em>Jialin Wang<sup>*</sup>, <strong>Xiaoru Qu</strong><sup>*</sup>, Jinze Bai, Zhao Li, Ji Zhang, Jun Gao</em></p>
-    <p class="publication-note"><sup>*</sup> Equal contribution.</p>
-    <p>IEEE TKDE 2023 (<a href="https://www.computer.org/csdl/journal/tk/2023/05/09705119/1AII2wq6R9e">paper</a>)</p>
+    <p>IEEE TKDE 2023 (<a href="https://www.computer.org/csdl/journal/tk/2023/05/09705119/1AII2wq6R9e">paper</a>) <span class="publication-note">(<sup>*</sup> Equal contribution)</span></p>
   </li>
   <li>
     <p><strong>A Subgraph-based Knowledge Reasoning Method for Collective Fraud Detection in E-commerce</strong></p>
