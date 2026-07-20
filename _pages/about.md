@@ -66,7 +66,7 @@ redirect_from:
   <li>
     <p><strong>Graph-Enhanced Prompt Learning for Personalized Review Generation</strong></p>
     <p><em><strong>Xiaoru Qu</strong>, Yifan Wang, Zhao Li, Jun Gao</em></p>
-    <p>Data Sci. Eng. 2024 (<a href="https://link.springer.com/article/10.1007/s41019-024-00252-z">paper</a>)</p>
+    <p>Data Sci. Eng. 2024 &middot; <a href="https://link.springer.com/article/10.1007/s41019-024-00252-z">paper</a></p>
   </li>
   <li>
     <p><strong>SAGES: Scalable Attributed Graph Embedding With Sampling for Unsupervised Learning</strong></p>
@@ -76,17 +76,17 @@ redirect_from:
   <li>
     <p><strong>A Subgraph-based Knowledge Reasoning Method for Collective Fraud Detection in E-commerce</strong></p>
     <p><em>Junshuai Song, <strong>Xiaoru Qu</strong>, Zehong Hu, Zhao Li, Jun Gao, Ji Zhang</em></p>
-    <p>Neurocomputing 2021 (<a href="https://www.sciencedirect.com/science/article/abs/pii/S0925231221009632">paper</a>)</p>
+    <p>Neurocomputing 2021 &middot; <a href="https://www.sciencedirect.com/science/article/abs/pii/S0925231221009632">paper</a></p>
   </li>
   <li>
     <p><strong>Category-aware Graph Neural Networks for Improving E-commerce Review Helpfulness Prediction</strong></p>
     <p><em><strong>Xiaoru Qu</strong>, Zhao Li, Jialin Wang, Zhipeng Zhang, Pengcheng Zou, Junxiao Jiang, Jiaming Huang, Rong Xiao, Ji Zhang, Jun Gao</em></p>
-    <p>CIKM 2020 (<a href="https://dl.acm.org/doi/abs/10.1145/3340531.3412691">paper</a>)</p>
+    <p>CIKM 2020 &middot; <a href="https://dl.acm.org/doi/abs/10.1145/3340531.3412691">paper</a></p>
   </li>
   <li>
     <p><strong>Personalized Bundle List Recommendation</strong></p>
     <p><em>Jinze Bai, Chang Zhou, Junshuai Song, <strong>Xiaoru Qu</strong>, Weiting An, Zhao Li, Jun Gao</em></p>
-    <p>WWW 2019 (<a href="https://dl.acm.org/doi/abs/10.1145/3308558.3313568">paper</a>)</p>
+    <p>WWW 2019 &middot; <a href="https://dl.acm.org/doi/abs/10.1145/3308558.3313568">paper</a></p>
   </li>
 </ul>
 </div>
